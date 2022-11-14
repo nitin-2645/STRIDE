@@ -1,6 +1,5 @@
-import logo from './logo.svg';
+
 import './App.css';
-import study from './study.jpg';
 
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
         </a>
       </header> */}
       <div>
-        <img src='https://www.homeworkhelpglobal.com/wp-content/uploads/2019/03/studying-student-on-desk.jpg' style={{width:"60%", height:"98vh", float:"left", left:"0", position:"relative"}}></img>
+        <img src='https://www.homeworkhelpglobal.com/wp-content/uploads/2019/03/studying-student-on-desk.jpg' alt="studying student" style={{width:"60%", height:"98vh", float:"left", left:"0", position:"relative"}}></img>
         <div><div style={{display:"block", width:"100%", textAlign:"center", color:"darkblue", backgroundColor:"skyblue", padding:"5px"}}>
             This site is intended for people 13 years of age <br/> and older.
           </div>
@@ -55,7 +54,7 @@ function App() {
           Or
             </p>
             <p className="link">
-              <p > Don't have an account? <a href="#">Sign Up</a></p>
+              <p > Don't have an account? <a href="/#">Sign Up</a></p>
             </p>
            
  
